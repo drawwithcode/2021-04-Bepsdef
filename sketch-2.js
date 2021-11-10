@@ -37,9 +37,8 @@ function draw() {
   let yr = noise((iterator - 15 * iterator) / 300) * windowHeight;
 
   image(richard, xr, yr);
-  image(richard, xr, yr);
-  image(richard, xr, yr);
-  image(richard, xr, yr);
+  image(richard, mouseX, yr);
+  image(richard, xr, mouseY);
 
   iterator = iterator + 0.25;
   let x1 = noise((iterator + 15 * iterator) / 500) * windowWidth;
