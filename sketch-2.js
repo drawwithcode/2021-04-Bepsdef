@@ -47,7 +47,7 @@ function draw() {
   myButton2.position(x1, y1);
 
   textSize(100);
-  text("click to enjoy", 30, 100);
+  text("click everywhere to enjoy", 30, 100);
 }
 
 function mousePressed() {
