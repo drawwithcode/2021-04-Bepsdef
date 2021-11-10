@@ -1,8 +1,22 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+  background-color: red;
 }
 
-canvas {
-  display: block;
+button {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-family: EditorialNew-Regular;
+  font-size: 50px;
+  position: absolute;
+  top: 10%;
+  left: 46%;
 }
